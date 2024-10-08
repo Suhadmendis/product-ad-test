@@ -1,0 +1,42 @@
+# Ignore build results
+bin/
+obj/
+migrations/
+# Ignore user-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# Ignore any Rider/JetBrains specific files
+.idea/
+*.sln.iml
+*.sln.nfos
+
+# Ignore logs
+*.log
+Logs/
+
+# Ignore package management results
+node_modules/
+packages/
+wwwroot/lib/
+
+# Ignore the database files
+*.mdf
+*.ldf
+
+# Ignore runtime and system files
+*.vs/
+.DS_Store
+Thumbs.db
+
+# Ignore publish folder
+publish/
+
+# Ignore configuration files
+appsettings.*.json
